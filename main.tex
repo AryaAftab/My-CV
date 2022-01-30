@@ -1,4 +1,4 @@
-\documentclass[letterpaper,10pt]{article}
+\documentclass[letterpaper,11pt]{article}
 
 \usepackage{latexsym}
 \usepackage[empty]{fullpage}
@@ -133,7 +133,7 @@
 \newcommand\sbullet[1][.5]{\mathbin{\vcenter{\hbox{\scalebox{#1}{$\bullet$}}}}}
 
 
-\newcommand*{\scholarsocialsymbol}{\includegraphics[height=.7\baselineskip]{google-scholar}}
+\newcommand*{\scholarsocialsymbol}{\includegraphics[height=.7\baselineskip]{figure/google-scholar.pdf}}
 %\collectionadd[scholar]{socials}{\href{https://scholar.google.com/citations?user=qc6CJjYAAAAJ&hl}{ John Doe}}
 
 %-------------------------------------------
@@ -146,13 +146,13 @@
 
 
 \begin{center}
-    {\Huge \scshape Arya Aftab} \\ \vspace{1pt}
+    {\Huge \scshape Arya Aftab} \\ \vspace{5pt}
     Tehran, Iran \\ \vspace{1pt}
     \small \href{tel:+989352340508}{ \raisebox{-0.1\height}\faPhone\ \underline{+98-9352340508} ~} \href{mailto:arya.aftab@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{arya.aftab@gmail.com}} ~ 
     \href{https://scholar.google.com/citations?user=-aXK86UAAAAJ&hl=en}{\raisebox{-0.2\height}\scholarsocialsymbol{\underline{Arya Aftab}}}  ~
     \href{https://linkedin.com/in/aryaaftab}{\raisebox{-0.2\height}\faLinkedinSquare\ \underline{aryaaftab}}  ~
     \href{https://github.com/AryaAftab}{\raisebox{-0.2\height}\faGithub\ \underline{AryaAftab}}
-    \vspace{-6pt}
+    %\vspace{-6pt}
 \end{center}
 
 
@@ -160,24 +160,28 @@
 \section{EDUCATION}
   \resumeSubHeadingListStart
     \resumeSubheading
-      {Sharif University of Technology}{Sep. 2018 -- Jul. 2021}
-      {\textbf{Master of Science}, Department of Electrical Engineering (Communication Systems)}{Tehran, Iran} \newline
-      {\textbf{GPA} - \textbf{3.6}}
+        {Sharif University of Technology \includegraphics[width=12pt, height=11pt]{figure/sut.png}}{Sep. 2018 -- Jul. 2021}
+        {\textbf{Master of Science}, Department of Electrical Engineering (Communication Systems)}{Tehran, Iran} \newline
+        \textbf{Thesis}: “Speech Emotion Recognition with Deep Learning and Frequency Features”\newline
+        \textbf{Supervisor}: Prof. Shahrokh Ghaemmaghami \newline
+        \textbf{GPA} : 3.6(16.48/20)
   \resumeSubHeadingListEnd
-  \vspace{-9pt}
+  \vspace{-8pt}
   
   \resumeSubHeadingListStart
     \resumeSubheading
-      {Amirkabir University of Technology (Tehran Polytechnic)}{Sep. 2013 -- Aug. 2018}
-      {\textbf{Bachelor of Science}, Department of Biomedical Engineering (Bioelectric)}{Tehran, Iran} %\newline
-      %{\textbf{GPA} - \textbf{2.85}}
+        {Amirkabir University of Technology (Tehran Polytechnic) \includegraphics[width=12pt, height=11pt]{figure/aut.png}}{Sep. 2013 -- Aug. 2018}
+        {\textbf{Bachelor of Science}, Department of Biomedical Engineering (Bioelectric)}{Tehran, Iran} \newline
+        \textbf{Thesis}: “Investigating Effect of Drop-out Regularizer on Deep Neural Network”\newline
+        \textbf{Supervisor}: Dr. Seyyed Ali Seyyedsalehi %\newline
+        %{\textbf{GPA} - \textbf{2.85}}
       
   \resumeSubHeadingListEnd
   
 %------RESEARCH INTERESTS-------
 \section{RESEARCH INTERESTS}
     %\resumeSubHeadingListStart
-        \begin{multicols}{4}
+        \begin{multicols}{2}
             \begin{itemize}[itemsep=-2pt, parsep=5pt]
                 \item Deep Learning
                 \item Machine Learning
@@ -231,7 +235,7 @@
               \resumeItem{\normalsize{In this project, for an industrial project at Electronic Research Institute (ERI), we examine several different models in terms of efficiency, accuracy, ability to implementation, and so on.}}
 
             \resumeItemListEnd 
-            \vspace{-13pt}
+            \vspace{-6pt}
             
         \resumeProjectHeading
             {\href{https://github.com/AlirezaMorsali/MH-RELU-INR}{\textbf{\large{\underline{Multi-Head ReLU for Implicit Neural Representation}}} {\raisebox{-0.1\height}\faExternalLink }} $|$ \large{Python, TensorFlow}}{Sep. 2021}
@@ -239,7 +243,7 @@
               \resumeItem{\normalsize{In this project, a novel multi-head multi-layer perceptron (MLP) structure is presented for implicit neural representation (INR).}}
 
             \resumeItemListEnd 
-            \vspace{-13pt}
+            \vspace{-6pt}
         
         \resumeProjectHeading
           {\href{https://github.com/AryaAftab/LIGHT-SERNET}{\textbf{\large{\underline{Speech Emotion Recognition (My Master's Thesis)}}} {\raisebox{-0.1\height}\faExternalLink }} $|$ \large{Python, TensorFlow, Linux}}{Jul. 2021}
@@ -248,7 +252,7 @@
 
             %\resumeItem{\textcolor{accent} {\href{Live Project Link} {\underline{\normalsize{Live site here}}}}}
           \resumeItemListEnd 
-          \vspace{-13pt}
+          \vspace{-6pt}
             
         \resumeProjectHeading
             {\href{https://github.com/AryaAftab/dropconnect-tensorflow}{\textbf{\large{\underline{Drop-Connect in TensorFlow}}} {\raisebox{-0.1\height}\faExternalLink }} $|$ \large{Python, TensorFlow}}{Jul. 2021}
@@ -256,7 +260,7 @@
               \resumeItem{\normalsize{In this project, we implemented drop-connect in form of a Python library.}}
 
             \resumeItemListEnd 
-            \vspace{-13pt}
+            \vspace{-6pt}
             
         \resumeProjectHeading
             {\href{https://github.com/AryaAftab/sincnet-tensorflow}{\textbf{\large{\underline{SincNet in TensorFlow}}} {\raisebox{-0.1\height}\faExternalLink }} $|$ \large{Python, TensorFlow}}{Jun. 2021}
@@ -264,7 +268,7 @@
               \resumeItem{\normalsize{In this project, we implemented SincNet in form of a Python library.}}
 
             \resumeItemListEnd 
-            \vspace{-13pt}
+            \vspace{-6pt}
         
         \resumeProjectHeading
             {\href{https://github.com/AryaAftab/rotary-embedding-tensorflow}{\textbf{\large{\underline{Rotary Embeddings in TensorFlow}}} {\raisebox{-0.1\height}\faExternalLink }} $|$ \large{Python, TensorFlow}}{May. 2021}
@@ -272,7 +276,7 @@
               \resumeItem{\normalsize{In this project, a standalone library for adding rotary embeddings to transformers in TensorFlow was implemented.}}
 
             \resumeItemListEnd 
-            \vspace{-13pt}
+            \vspace{-7pt}
             
         \resumeProjectHeading
             {\href{https://github.com/AryaAftab/sparselayer-tensorflow}{\textbf{\large{\underline{Sparse Layer in TensorFlow}}} {\raisebox{-0.1\height}\faExternalLink }} $|$ \large{Python, TensorFlow}}{Apr. 2021}
@@ -280,7 +284,7 @@
               \resumeItem{\normalsize{In this project, we implemented two layers(Convolution and Dense) as sparse layers in form of a Python library.}}
 
             \resumeItemListEnd 
-            \vspace{-13pt}
+            \vspace{-7pt}
             
         \resumeProjectHeading
             {\href{https://github.com/AryaAftab/Physics-based-neural-network}{\textbf{\large{\underline{Physics-Based Neural Network}}} {\raisebox{-0.1\height}\faExternalLink }} $|$ \large{Python, TensorFlow, FEniCS}}{Feb. 2021}
@@ -288,7 +292,7 @@
               \resumeItem{\normalsize{In this project, we used the sine activation function, which has recently been introduced as a solution for solving differential equations with neural networks.}}
 
             \resumeItemListEnd 
-            \vspace{-13pt}
+            \vspace{-7pt}
         
         \resumeProjectHeading
             {\href{https://github.com/AryaAftab/Two-Steps-GVF-Snake-Model}{\textbf{\large{\underline{Two Steps Gradient Vector Flow (GVF) Snake Model}}} {\raisebox{-0.1\height}\faExternalLink }} $|$ \large{MATLAB}}{Dec. 2020}
@@ -296,7 +300,7 @@
               \resumeItem{\normalsize{In this project, we utilized the generalized gradient vector flow snake model using minimal surface and two steps converging using both vector based normalization and component-based normalization with distinct controlling parameters on active contour.}}
               
             \resumeItemListEnd 
-            \vspace{-13pt}
+            \vspace{-7pt}
             
         \resumeProjectHeading
             {{\textbf{\large{\underline{Stock Prediction (Private Repository)}}}} $|$ \large{Python, TensorFlow, Web Crawling}}{Sep. 2020}
@@ -304,18 +308,18 @@
               \resumeItem{\normalsize{In this project, we first extracted financial market data via web crawling and then modelled them for risk reduction and profit forecasting.}}
 
             \resumeItemListEnd 
-
+            
           
     \resumeSubHeadingListEnd
-%\vspace{-6pt}
+\vspace{6pt}
 
 %-----------PEER-REVIEWED MANUSCRIPTS-----------
 \section{PEER-REVIEWED MANUSCRIPTS}
     %\resumeSubHeadingListStart
-        \begin{itemize}[itemsep=-2pt, parsep=5pt]
-            \item \textbf{Arya Aftab}, Alireza Morsali, Shahrokh Ghaemmaghami, Benoit Champagne. "\textbf{Light-SERNet: A Lightweight Fully Convolutional Neural Network for Speech Emotion Recognition}". Accepted in \textbf{ICASSP} 2022. \href{https://arxiv.org/pdf/2110.03435.pdf}{Arxiv {\raisebox{-0.1\height}\faExternalLink }}
-            \item \textbf{Arya Aftab}, Alireza Morsali. "\textbf{Multi-Head ReLU Implicit Neural Representation Networks}". Accepted in \textbf{ICASSP} 2022. \href{https://arxiv.org/pdf/2110.03448.pdf}{Arxiv {\raisebox{-0.1\height}\faExternalLink }}
-            \item \textbf{Arya Aftab$^*$}, Fatemeh Kashani Asadi Jafari$^*$, Alireza Morsali, Shahrokh Ghaemmaghami. "\textbf{An End to End Method for Predicting p\textit{K}$_{a}$ of Small Molecules}". Under preparation.
+        \begin{itemize}[itemsep=0pt, parsep=5pt]
+            \item \textbf{Arya Aftab}, Alireza Morsali, Shahrokh Ghaemmaghami, Benoit Champagne. “\textbf{Light-SERNet: A Lightweight Fully Convolutional Neural Network for Speech Emotion Recognition}”. Accepted in \textbf{ICASSP} 2022. \href{https://arxiv.org/pdf/2110.03435.pdf}{Arxiv {\raisebox{-0.1\height}\faExternalLink }}
+            \item \textbf{Arya Aftab}, Alireza Morsali. “\textbf{Multi-Head ReLU Implicit Neural Representation Networks}”. Accepted in \textbf{ICASSP} 2022. \href{https://arxiv.org/pdf/2110.03448.pdf}{Arxiv {\raisebox{-0.1\height}\faExternalLink }}
+            \item \textbf{Arya Aftab$^*$}, Fatemeh Kashani Asadi Jafari$^*$, Alireza Morsali, Shahrokh Ghaemmaghami. “\textbf{An End to End Method for Predicting p\textit{K}$_{a}$ of Small Molecules}”. Under preparation.
         \end{itemize}
         $^*$: Indicating same contribution
         %\vspace*{2.0\multicolsep}
@@ -331,7 +335,7 @@
               \resumeItem{\normalsize{For PhD and Master of communication systems students at Sharif University of Technology. Instructor: \textbf{Dr. Shahrokh Ghaemmaghami}.}}
 
             \resumeItemListEnd 
-            \vspace{-13pt}
+            %\vspace{-13pt}
             
         \resumeProjectHeading
             {\textbf{\large{Fundamental of Electrical Engineering}}}{Winter 2020}
@@ -368,7 +372,7 @@
       {\href{http://en.arya-teb.com}{Arya Teb Firouz {\raisebox{-0.1\height}\faExternalLink }}}{Mar. 2019 -- Aug. 2019} 
       {\underline{Researcher}}{Tehran, Iran}
       \resumeItemListStart
-        \resumeItem{\normalsize{I worked as a researcher in the research and development part of the company on solving problems with artificial intelligence.}}
+        \resumeItem{\normalsize{I worked as a researcher in the research and development (R\&D) department of the company to solve problems with artificial intelligence.}}
   
       \resumeItemListEnd  
       
@@ -394,12 +398,55 @@
 \section{TECHNICAL SKILLS}
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
-     \textbf{\normalsize{Languages:}}{ \normalsize{Python(TensorFlow, PyTorch, Keras, JAX, ...), MATLAB, C++, JavaScript, BashScript}} \\
-     \textbf{\normalsize{Developer Tools:}}{ \normalsize{VS Code, Jupyter Notebook, PyCharm, Sublime Text, Vim}} \\
-     \textbf{\normalsize{Technologies/Frameworks:}}{\normalsize{ Linux, GitHub, Git, NodeJS, Docker}} \\
-     \textbf{\normalsize{Other Tools:}}{\normalsize{ \LaTeX, GIMP, Inkscape, MeshLab, Mendeley, Microsoft Office}} \\
-    }}
+    \textbf{\normalsize{Languages:}}
+        \vspace{6pt}
+        \begin{itemize}[itemsep=0pt, parsep=5pt]
+            \begin{multicols}{2}
+                \item \includegraphics[width=11pt, height=9pt]{figure/python.png} \textbf{Python}(TensorFlow, PyTorch, Keras, JAX)(Expert)
+                \item \includegraphics[width=11pt, height=9pt]{figure/matlab.png} \textbf{MATLAB}(Expert)
+                \item \includegraphics[width=10pt, height=9pt]{figure/c++.png} \textbf{C++}(Intermediate)
+                \item \includegraphics[width=11pt, height=9pt]{figure/js.png} \textbf{JavaScript}(Intermediate)
+                \item \includegraphics[width=11pt, height=9pt]{figure/bash.png} \textbf{BashScript}(Intermediate)
+            \end{multicols}
+        \end{itemize}
+        
+    \textbf{\normalsize{Developer Tools:}}
+        \vspace{6pt}
+        \begin{itemize}[itemsep=0pt, parsep=5pt]
+             \begin{multicols}{2}
+                \item \includegraphics[width=10pt, height=9pt]{figure/vscode.png} \textbf{VS Code}(Expert)
+                \item \includegraphics[width=10pt, height=9pt]{figure/jupyternotebook.png} \textbf{Jupyter Notebook}(Expert)
+                \item \includegraphics[width=11pt, height=9pt]{figure/pucharm.png} \textbf{PyCharm}(Intermediate)
+                \item \includegraphics[width=10pt, height=9pt]{figure/sublimetext.png} \textbf{Sublime Text}(Intermediate)
+                \item \includegraphics[width=11pt, height=9pt]{figure/vim.png} \textbf{Vim}(Intermediate)
+            \end{multicols}
+        \end{itemize}
     
+    \textbf{\normalsize{Technologies/Frameworks:}}
+        \vspace{6pt}
+        \begin{itemize}[itemsep=0pt, parsep=5pt]
+            \begin{multicols}{2}
+                \item \includegraphics[width=11pt, height=9pt]{figure/linux.png} \textbf{Linux}(Expert)
+                \item \includegraphics[width=11pt, height=9pt]{figure/github.png} \textbf{GitHub}(Expert)
+                \item \includegraphics[width=11pt, height=9pt]{figure/git.png} \textbf{Git}(Expert)
+                \item \includegraphics[width=11pt, height=9pt]{figure/nodejs.png} \textbf{NodeJS}(Intermediate)
+                \item \includegraphics[width=11pt, height=9pt]{figure/docker.png} \textbf{Docker}(Intermediate)
+            \end{multicols}
+        \end{itemize}
+        
+    \textbf{\normalsize{General Softwares:}}
+        \vspace{6pt}
+        \begin{itemize}[itemsep=0pt, parsep=5pt]
+            \begin{multicols}{2}
+                \item \includegraphics[width=11pt, height=9pt]{figure/latex.png} \textbf{\LaTeX}(Intermediate)
+                \item \includegraphics[width=11pt, height=9pt]{figure/gimp.png} \textbf{GIMP}(Intermediate)
+                \item \includegraphics[width=11pt, height=9pt]{figure/inkscape.png} \textbf{Inkscape}(Intermediate)
+                \item \includegraphics[width=10pt, height=9pt]{figure/meshlab.png} \textbf{MeshLab}(Intermediate)
+                \item \includegraphics[width=10pt, height=9pt]{figure/mendely.png} \textbf{Mendeley}(Intermediate)
+                \item \includegraphics[width=11pt, height=9pt]{figure/microsoft.png} \textbf{Microsoft Office}(Intermediate)
+            \end{multicols}
+        \end{itemize}
+    }}
  \end{itemize}
  %\vspace{-6pt}
  
@@ -436,13 +483,13 @@
         \begin{itemize}[itemsep=-2pt, parsep=5pt]
             \item \textbf{Dr. Shahrokh Ghaemmaghami}: Professor\newline Department of Electrical Engineering and Electronics Research Institute, Sharif University of Technology, Tehran, Iran. \newline \textbf{Email}: ghaemmag@sharif.edu 
             
-            \vspace{5pt}
+            %\vspace{5pt}
             \item \textbf{Dr. Sajjad Amini}: Assistant Professor\newline Department of Electrical Engineering and Electronics Research Institute, Sharif University of Technology, Tehran, Iran.\newline \textbf{Email}: s\_amini@sharif.edu
             
-            \vspace{5pt}
-            \item \textbf{Dr. Benoit Champagne}: Professor\newline Department of Electrical and Computer Engineering, McGill University, Montreal, Canada.\newline \textbf{Email}: benoit.champagne@mcgill.ca
+            %\vspace{5pt}
+            %\item \textbf{Dr. Benoit Champagne}: Professor\newline Department of Electrical %and Computer Engineering, McGill University, Montreal, Canada.\newline %\textbf{Email}: benoit.champagne@mcgill.ca
             
-            \vspace{5pt}
+            %\vspace{5pt}
             \item \textbf{Dr. Alireza Morsali}\newline Department of Electrical and Computer Engineering, McGill University, Montreal, Canada.\newline \textbf{Email}:  alireza.morsali@mail.mcgill.ca
         \end{itemize}
         %\vspace*{2.0\multicolsep}
