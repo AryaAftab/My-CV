@@ -1,3 +1,10 @@
+%-------------------------
+% Resume in Latex
+% Author : Abey George
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
 \documentclass[letterpaper,11pt]{article}
 
 \usepackage{latexsym}
@@ -64,8 +71,8 @@
 \addtolength{\oddsidemargin}{-0.6in}
 \addtolength{\evensidemargin}{-0.5in}
 \addtolength{\textwidth}{1.19in}
-\addtolength{\topmargin}{-.7in}
-\addtolength{\textheight}{1.4in}
+%\addtolength{\topmargin}{-.7in}
+%\addtolength{\textheight}{1.4in}
 
 \urlstyle{same}
 
@@ -76,7 +83,7 @@
 % Sections formatting
 \titleformat{\section}{
   \vspace{-4pt}\scshape\raggedright\large\bfseries
-}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+}{}{0em}{}[\color{blue}\titlerule \vspace{-5pt}]
 
 % Ensure that generate pdf is machine readable/ATS parsable
 \pdfgentounicode=1
@@ -136,17 +143,16 @@
 \newcommand*{\scholarsocialsymbol}{\includegraphics[height=.7\baselineskip]{figure/google-scholar.pdf}}
 %\collectionadd[scholar]{socials}{\href{https://scholar.google.com/citations?user=qc6CJjYAAAAJ&hl}{ John Doe}}
 
+
 %-------------------------------------------
 %%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
-
 \begin{document}
-
 %----------HEADING----------
 
 
 \begin{center}
-    {\Huge \scshape Arya Aftab} \\ \vspace{5pt}
+    {\Huge \scshape \textcolor{blue}{Arya Aftab}} \\ \vspace{5pt}
     Tehran, Iran \\ \vspace{1pt}
     \small \href{tel:+989352340508}{ \raisebox{-0.1\height}\faPhone\ \underline{+98-9352340508} ~} \href{mailto:arya.aftab@gmail.com}{\raisebox{-0.2\height}\faEnvelope\  \underline{arya.aftab@gmail.com}} ~ 
     \href{https://scholar.google.com/citations?user=-aXK86UAAAAJ&hl=en}{\raisebox{-0.2\height}\scholarsocialsymbol{\underline{Arya Aftab}}}  ~
@@ -157,7 +163,7 @@
 
 
 %-----------EDUCATION-----------
-\section{EDUCATION}
+\section{\textcolor{blue}{EDUCATION}}
   \resumeSubHeadingListStart
     \resumeSubheading
         {Sharif University of Technology \includegraphics[width=12pt, height=11pt]{figure/sut.png}}{Sep. 2018 -- Jul. 2021}
@@ -179,7 +185,7 @@
   \resumeSubHeadingListEnd
   
 %------RESEARCH INTERESTS-------
-\section{RESEARCH INTERESTS}
+\section{\textcolor{blue}{RESEARCH INTERESTS}}
     %\resumeSubHeadingListStart
         \begin{multicols}{2}
             \begin{itemize}[itemsep=-2pt, parsep=5pt]
@@ -193,7 +199,7 @@
     %\resumeSubHeadingListEnd
 
 %------RELEVANT COURSEWORK-------
-\section{RELEVANT COURSEWORK}
+\section{\textcolor{blue}{RELEVANT COURSEWORK}}
     %\resumeSubHeadingListStart
         \begin{multicols}{4}
             \begin{itemize}[itemsep=-2pt, parsep=5pt]
@@ -214,7 +220,7 @@
     %\resumeSubHeadingListEnd
 
 %-----------HONORS-----------
-\section{HONORS}
+\section{\textcolor{blue}{HONORS}}
     %\resumeSubHeadingListStart
         \begin{itemize}[itemsep=-2pt, parsep=5pt]
             \item Ranked 9st in Iran’s national Master of Science in electrical engineering university entrance exam among more than 35,000 participants [Spring 2018].
@@ -224,9 +230,22 @@
         \end{itemize}
         %\vspace*{2.0\multicolsep}
  %\vspace{-6pt}
+ 
+ 
+%-----------PEER-REVIEWED MANUSCRIPTS-----------
+\section{\textcolor{blue}{PEER-REVIEWED MANUSCRIPTS}}
+    %\resumeSubHeadingListStart
+        \begin{itemize}[itemsep=0pt, parsep=5pt]
+            \item \textbf{Arya Aftab}, Alireza Morsali, Shahrokh Ghaemmaghami, Benoit Champagne. “\textbf{Light-SERNet: A Lightweight Fully Convolutional Neural Network for Speech Emotion Recognition}”. Accepted in \textbf{ICASSP} 2022. \href{https://arxiv.org/pdf/2110.03435.pdf}{Arxiv {\raisebox{-0.1\height}\faExternalLink }}
+            \item \textbf{Arya Aftab}, Alireza Morsali, Shahrokh Ghaemmaghami. “\textbf{Multi-Head ReLU Implicit Neural Representation Networks}”. Accepted in \textbf{ICASSP} 2022. \href{https://arxiv.org/pdf/2110.03448.pdf}{Arxiv {\raisebox{-0.1\height}\faExternalLink }}
+            \item \textbf{Arya Aftab$^*$}, Fatemeh Kashani Asadi Jafari$^*$, Alireza Morsali, Shahrokh Ghaemmaghami. “\textbf{An End to End Method for Predicting p\textit{K}$_{a}$ of Small Molecules}”. Under preparation.
+        \end{itemize}
+        $^*$: Indicating same contribution
+        %\vspace*{2.0\multicolsep}
+ %\vspace{-6pt}
 
 %-----------PROJECTS-----------
-\section{PROJECTS}
+\section{\textcolor{blue}{PROJECTS}}
     %\vspace{-5pt}
     \resumeSubHeadingListStart
         \resumeProjectHeading
@@ -313,20 +332,9 @@
     \resumeSubHeadingListEnd
 \vspace{6pt}
 
-%-----------PEER-REVIEWED MANUSCRIPTS-----------
-\section{PEER-REVIEWED MANUSCRIPTS}
-    %\resumeSubHeadingListStart
-        \begin{itemize}[itemsep=0pt, parsep=5pt]
-            \item \textbf{Arya Aftab}, Alireza Morsali, Shahrokh Ghaemmaghami, Benoit Champagne. “\textbf{Light-SERNet: A Lightweight Fully Convolutional Neural Network for Speech Emotion Recognition}”. Accepted in \textbf{ICASSP} 2022. \href{https://arxiv.org/pdf/2110.03435.pdf}{Arxiv {\raisebox{-0.1\height}\faExternalLink }}
-            \item \textbf{Arya Aftab}, Alireza Morsali. “\textbf{Multi-Head ReLU Implicit Neural Representation Networks}”. Accepted in \textbf{ICASSP} 2022. \href{https://arxiv.org/pdf/2110.03448.pdf}{Arxiv {\raisebox{-0.1\height}\faExternalLink }}
-            \item \textbf{Arya Aftab$^*$}, Fatemeh Kashani Asadi Jafari$^*$, Alireza Morsali, Shahrokh Ghaemmaghami. “\textbf{An End to End Method for Predicting p\textit{K}$_{a}$ of Small Molecules}”. Under preparation.
-        \end{itemize}
-        $^*$: Indicating same contribution
-        %\vspace*{2.0\multicolsep}
- %\vspace{-6pt}
 
 %-----------TEACHING ASSISTANT EXPERIENCES-----------
-\section{TEACHING ASSISTANT EXPERIENCES}
+\section{\textcolor{blue}{TEACHING ASSISTANT EXPERIENCES}}
     %\vspace{-5pt}
     \resumeSubHeadingListStart
         \resumeProjectHeading
@@ -349,7 +357,7 @@
 
 
 %-----------WORK EXPERIENCES-----------
-\section{WORK EXPERIENCES}
+\section{\textcolor{blue}{WORK EXPERIENCES}}
   \resumeSubHeadingListStart
 
     \resumeSubheading
@@ -380,7 +388,7 @@
 %\vspace{-6pt}
 
 %-----------EXPERIENCE-----------
-\section{INTERNSHIP}
+\section{\textcolor{blue}{INTERNSHIP}}
   \resumeSubHeadingListStart
 
     \resumeSubheading
@@ -395,7 +403,7 @@
 %\vspace{-12pt}
 
 %-----------PROGRAMMING SKILLS-----------
-\section{TECHNICAL SKILLS}
+\section{\textcolor{blue}{TECHNICAL SKILLS}}
  \begin{itemize}[leftmargin=0.15in, label={}]
     \small{\item{
     \textbf{\normalsize{Languages:}}
@@ -449,10 +457,9 @@
     }}
  \end{itemize}
  %\vspace{-6pt}
-
  
   %------INTERESTS-------
-\section{INTERESTS}
+\section{\textcolor{blue}{INTERESTS}}
     %\resumeSubHeadingListStart
         \begin{multicols}{4}
             \begin{itemize}[itemsep=-2pt, parsep=5pt]
@@ -467,19 +474,19 @@
         \end{multicols}
         %\vspace*{2.0\multicolsep}
     %\resumeSubHeadingListEnd
-
+    
  %------LANGUAGE PROFICIENCY-------
-\section{LANGUAGE PROFICIENCY}
-	%\resumeSubHeadingListStart
-	\begin{itemize}[itemsep=-2pt, parsep=5pt]
-		\item \textbf{Persian:} Native
-		\item \textbf{English:} Studying for IELTS
-	\end{itemize}
-	%\vspace*{2.0\multicolsep}
-	%\resumeSubHeadingListEnd
+\section{\textcolor{blue}{LANGUAGE PROFICIENCY}}
+    %\resumeSubHeadingListStart
+        \begin{itemize}[itemsep=-2pt, parsep=5pt]
+            \item \textbf{Persian:} Native
+            \item \textbf{English:} Studying for IELTS
+        \end{itemize}
+        %\vspace*{2.0\multicolsep}
+    %\resumeSubHeadingListEnd
  
 %-----------REFERENCES-----------
-\section{REFERENCES}
+\section{\textcolor{blue}{REFERENCES}}
     %\resumeSubHeadingListStart
         \begin{itemize}[itemsep=-2pt, parsep=5pt]
             \item \textbf{Dr. Shahrokh Ghaemmaghami}: Professor\newline Department of Electrical Engineering and Electronics Research Institute, Sharif University of Technology, Tehran, Iran. \newline \textbf{Email}: ghaemmag@sharif.edu 
